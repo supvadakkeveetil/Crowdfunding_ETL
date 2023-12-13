@@ -1,10 +1,45 @@
 # Crowdfunding_ETL
-Project 2 - This repo is for Group2
-### 
-SQL Tables [
-](https://github.com/supvadakkeveetil/Crowdfunding_ETL/blob/main/Resources/Screenshots/Schema.png?raw=true)https://github.com/supvadakkeveetil/Crowdfunding_ETL/blob/main/Resources/Screenshots/Schema.png?raw=true
+## Project Description:
+ETL Project to Extract, Transform and Load the Crowdfunding data using Python, Pandas, Python Dictionary and PostgreSQL.
 
-![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/ab687ff6-dd7b-4569-bab3-14d675ee66c4)
+### Extract
+
+1.	Extract the data from the crowdfunding.xlsx file
+
+### Transform 
+
+•	Create the Category and Subcategory Data Frames
+•	Splitting the columns
+•	Finding the unique values
+•	Creating a Category and Subcategory ID 
+•	Export to Data Frame
+•	Converting the Data Types – Float and Date
+•	Merging dataframes
+•	Dropping the columns 
+•	Create the Contacts DataFrame
+•	Option 1 – Use Pandas to create the dataframe
+
+The above 2 steps are illustrated in the Jupyter file
+
+### Creating the Schema
+Create the Schema inspecting the CSV files and generating the ER diagram using the Quick DBD 
+Exporting the file to PostgreSQL as 
+[
+](https://github.com/supvadakkeveetil/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/ab687ff6-dd7b-4569-bab3-14d675ee66c4)
+
+### Load 
+
+•	Create the Database- crowdfunding_db 
+•	Import the tables in order 
+•	Contacts
+•	Category
+•	Subcategory
+•	Campaign
+•	Run the SELECT * query on each of the tables  
+![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/ae240fe8-e500-4d7f-aa89-0fb3c1ae9065)
+
+
+
 
 Supriya and I encountered an error with the header column in contacts.xlsx. Her code worked with header=2, my code worked with header=3. This traps our ability to sync our files.
 
