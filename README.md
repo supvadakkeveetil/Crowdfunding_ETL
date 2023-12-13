@@ -33,10 +33,7 @@ The above 2 steps (Extract and Transform) are illustrated in the Jupyter file
 Create the Schema inspecting the CSV files and generating the ER diagram using the Quick DBD 
 Exporting the file to PostgreSQL as 
 
-[
-](https://github.com/supvadakkeveetil/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)![image]
-
-(https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/ab687ff6-dd7b-4569-bab3-14d675ee66c4)
+![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/8f064567-56d2-4e0a-995f-bcc239654031)
 
 ### Load 
 Loading the data involved  
@@ -56,15 +53,15 @@ Loading the data involved
 
 ![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/779456ac-b1de-4e64-acd9-513d8be0fc25)
 
-# category table
+#### category table
 
 ![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/fa056b76-a867-430b-8708-965b9d03cf35)
 
-# subcategory table
+#### subcategory table
 
 ![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/29a78fa8-6b9c-41ef-98ab-bc72d6207386)
 
-# campaigns table
+##### campaigns table
 
 ![image](https://github.com/supvadakkeveetil/Crowdfunding_ETL/assets/144635564/d8a4b8c0-795e-48b6-9fa7-cbddf256fdf0)
 
